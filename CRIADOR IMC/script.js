@@ -11,9 +11,9 @@ function imc (){
     const resultado = document.getElementById('resultado');
 
     if (nome !== '' && altura !== '' && peso !== '') {
-        
+         
         const valorIMC = (peso/(altura*altura)).toFixed(2);
-
+ 
         let classificacao = '';
 
         if (valorIMC < 18.5){
